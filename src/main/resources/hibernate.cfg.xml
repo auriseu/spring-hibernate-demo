@@ -8,7 +8,13 @@
 
         <!-- JDBC Database connection settings -->
         <property name="connection.driver_class">org.h2.Driver</property>
+<!--
         <property name="connection.url">jdbc:h2:/home/auriseu/ws/TRAINING/spring-hibernate-demo-1/h2;SCHEMA=hb_03_one_to_many</property>
+-->
+<!--
+        <property name="connection.url">jdbc:h2:/home/auriseu/ws/TRAINING/spring-hibernate-demo-1/h2;SCHEMA=hb_04_one_to_many_uni</property>
+-->
+        <property name="connection.url">jdbc:h2:/home/auriseu/ws/TRAINING/spring-hibernate-demo-1/h2;SCHEMA=hb_05_many_to_many</property>
 <!--        <property name="connection.username">hbstudent</property>
         <property name="connection.password">hbstudent</property>-->
 
